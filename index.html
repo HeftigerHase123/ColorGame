@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color - Guessing - Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="head">
+            <h2></h2>
+        </section>
+        <section class="nav-bar">
+            <article class="nav-bar-left">
+                <button id="getNewColor-btn">NEW COLORS</button>
+            </article>
+            <article class="nav-bar-right">
+                <input type="radio" name="level" id="easy">
+                <label for="easy">EASY</label>
+                <input type="radio" name="level" id="hard">
+                <label for="hard">HARD</label>
+                <input type="radio" name="level" id="ultra">
+                <label for="ultra">ULTRA</label>
+            </article>
+        </section>
+        <section class="color-square-container">
+            <div class="easy"></div>
+        </section>
+    </main>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>wird geladen...</p>
+            <button class="next-btn">NEXT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+
+</html>
